@@ -36,4 +36,14 @@ The dataset used comes from the Google BigQuery database "thelook_ecommerce" whi
 ![Tambahkan sedikit teks isi](https://github.com/user-attachments/assets/237e94d2-f1c0-4d89-894f-f9185369eeef)
 Each dimension table provides descriptive context for the sales data. For example, Dim_Customer provides information about who bought the product, Dim_Product provides information about what product was purchased, and so on.
 
-5. a
+#### C. Extract
+1. Fetch the required data from BigQuery database based on Fact Table and Dimension Table and save it to .csv respectively query output
+2. Put the query sql in a special .sql file and
+3. Load the csv files to **PySpark dataframe**.
+
+#### D. Transform
+1. Perform data cleaning and transformation according to the Fact Table and Dimension Table using PySpark.
+2. The cleaning and transform process can apply changing column names, changing data formats, checking and deleting missing values, adding or deleting columns, etc.
+3. This transform process is carried out in the .ipynb notebook file. It is highly not recommended to run it on Google Colab because it will later be connected to the PostgreSQL database.
+
+
