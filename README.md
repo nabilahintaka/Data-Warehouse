@@ -46,4 +46,8 @@ Each dimension table provides descriptive context for the sales data. For exampl
 2. The cleaning and transform process can apply changing column names, changing data formats, checking and deleting missing values, adding or deleting columns, etc.
 3. This transform process is carried out in the .ipynb notebook file. It is highly not recommended to run it on Google Colab because it will later be connected to the PostgreSQL database.
 
+#### E. Load
+1. Create a pre-designed data warehouse to a PostgreSQL database. Create a new Database and table based on the schema design you have created.
+2. Save the DDL process sequence in one .sql file
+3. Load the transformed PySpark data into each table (Fact and Dimension) that has been created.
 
