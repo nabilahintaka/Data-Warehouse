@@ -18,3 +18,22 @@ You work at an ecommerce company called 'The Look'. You are asked to create a Da
 
 #### A. Dataset
 The dataset used comes from the Google BigQuery database "thelook_ecommerce" which can be accessed [here](https://console.cloud.google.com/bigquery?p=bigquery-public-data&d=thelook_ecommerce).
+
+
+#### B. Data Modeling
+1. Create a data warehouse design along with details of the fact table and dimension table.
+
+2. Sales Business Process Details
+   - User browses products on the platform
+   - User adds products to the shopping cart
+   - User checks out and places an order
+   - System creates and records order details such as product, price and shipping information
+   - Order is processed and prepared at the distribution center
+   - Order is sent to User
+   - Order is received by User
+
+3. This data warehouse design uses a Star Schema. This scheme was chosen because of its simplicity and ease of performing analytical queries. The Fact_Sales fact table is in the middle, surrounded by directly connected dimension tables.
+![Tambahkan sedikit teks isi](https://github.com/user-attachments/assets/237e94d2-f1c0-4d89-894f-f9185369eeef)
+Each dimension table provides descriptive context for the sales data. For example, Dim_Customer provides information about who bought the product, Dim_Product provides information about what product was purchased, and so on.
+
+5. a
