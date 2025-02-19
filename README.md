@@ -1,8 +1,6 @@
 # Data-Warehouse
 
-Welcome to my Data Analyst Portfolio! I am a data analyst with experience in using various tools and technologies. I am proficient in data tools such as Python, MySQL, PostgreSql, BigQuery, Excel, Power BI, Tableau and Looker Studio.
-
-This is a repository to showcase my data analytics skills and projects that i get during my studies using *PostgreSQL*
+This project is for create a data Warehouse design and sales business process for the company's analysis, the dataset comes from the Google BigQuery and extract it into csv using PySpark, transform the data and then load it to PostgreSQL
 
 # Objectives
 demonstrate the ability to ETL and Data Modeling concepts as follows:
