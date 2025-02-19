@@ -1,6 +1,8 @@
 # Data-Warehouse
 
-This project is for create a data Warehouse design and sales business process for the company's analysis, the dataset comes from the Google BigQuery and extract it into csv using PySpark, transform the data and then load it to PostgreSQL
+This project is for create a data Warehouse design and sales business process for the company's analysis, the dataset comes from the Google BigQuery and extract it into csv using PySpark, transform the data and then load it to Database
+
+This is a repository to showcase my data analytics skills and projects that i get during my studies using Google BigQuery. Python, PySpark, and PostgreSQL
 
 # Objectives
 demonstrate the ability to ETL and Data Modeling concepts as follows:
